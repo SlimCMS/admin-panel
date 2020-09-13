@@ -25,9 +25,9 @@ class Module implements ModuleInterface
     public function info(LangInterface $lang): array
     {
         return [
-            'name'          => $lang->get('info.name'),
-            'description'   => $lang->get('info.description'),
-            'author'        => $lang->get('info.author'),
+            'name'          => lang('info.name'),
+            'description'   => lang('info.description'),
+            'author'        => lang('info.author'),
             'version'       => '1.0.0',
         ];
     }
