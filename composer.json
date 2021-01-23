@@ -1,11 +1,14 @@
 {
     "name": "slimcms/admin-panel",
-     "description": "Admin module.",
+    "description": "Admin module.",
     "type": "slimcms-module",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Slimcms\\Admin_panel\\": "src/"
+            "SlimcmsAdminPanel\\": "src/"
         }
+    },
+    "require": {
+        "slimcms/dev-tools": ">=0.0.5"
     }
 }

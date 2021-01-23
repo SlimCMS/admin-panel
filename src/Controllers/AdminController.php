@@ -2,17 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Slimcms\Admin_panel\Controllers;
+namespace SlimcmsAdminPanel\Controllers;
 
-use Core\Models\User;
-use Core\View\ViewerInterface;
 use DI\Annotation\Inject;
 
 class AdminController
 {
     /**
      * @Inject
-     * @var ViewerInterface
      */
     protected $viewer;
 
